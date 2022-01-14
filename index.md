@@ -1,17 +1,3 @@
-Francis Redublado
-# Games I like:
+Hello, this is Francis Redublado's website holding all of my lab reports.
 
-* Hearts of Iron 4
-* Mario Kart 7
-* Kingdom Rush
-* Theotown
-* [Link](https://roblox.com) Roblox
-
----
-
-Some were due to *nostalgia*, but still remain great games:
-1. Mario Kart 7
-2. Kingdom Rush
-3. Theotown
-
-Welp, time to check if I can save this right.
+Here are my lab reports:
