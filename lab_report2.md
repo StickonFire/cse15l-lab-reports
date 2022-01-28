@@ -30,4 +30,7 @@ This blocked empty strings, resulting the new output to appear like this:
 ![EdgeCase2PreferredResult](https://user-images.githubusercontent.com/70039286/151626820-7b6f0706-21c5-4b32-93f3-1be11678bf69.PNG)
 
 ## Edge Case 3
+[Link](https://github.com/StickonFire/markdown-parse/blob/main/edge_case3.md) to file with edge case 3.
+[Link](https://github.com/StickonFire/markdown-parse/commit/2f56767365c2e71832ed519b6f9bf5dc04d84a4f) to the commit made due to edge case 3.
 
+Edge case 3 lacks any links and instead has some brackets and parentheses placed in it. 
