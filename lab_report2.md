@@ -1,6 +1,12 @@
 # Lab Report 2
 
 ## Edge Case 1
+Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case.md)
+Link to [commit](https://github.com/StickonFire/markdown-parse/commit/70e973d1cd44980826a49f44a9ec3575764a1fda) made to remedy the first issue of Edge Case 1.
+
+The first Edge Case is unique in that it doesn't have 1 bug, but 2. The first bug is an infinite loop caused by the extra letters placed after one of the ending parentheses. Due to this, I believe, when the loop started again, and the first line of the loop returned -1. Due to this, the entire String was searched again, resulting in the exact same circumstances. Due to this, the loop was unable to end.
+![InfiniteLoopFromFirstEdgeCase](https://user-images.githubusercontent.com/70039286/151629402-0fb694a8-4df4-40fe-9713-c83653ad657c.PNG)
+
 
 ## Edge Case 2
 Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge_case2.md) containing edge case2.
