@@ -10,7 +10,10 @@ Edge case 2 consists of an empty "\[\]\(\)", resulting in an empty string gettin
 This is an issue because most individuals would not expect an empty string to be considered a link. 
 ![PictureOfEdgeCase2Result](https://user-images.githubusercontent.com/70039286/151626560-9e94b70e-ca46-460f-aaf5-1c878d39c19d.PNG)
 
-To remedy this, a lower bound of length 3 was placed on all strings placed within the list. This blocked empty strings, resulting the new output to appear like this:
+To remedy this, a lower bound of length 3 was placed on all strings placed within the list.
+![EdgeCase2ChangeMade](https://user-images.githubusercontent.com/70039286/151627714-0e11ffee-e5c4-4799-84bb-58fc2452f851.PNG)
+
+This blocked empty strings, resulting the new output to appear like this:
 ![EdgeCase2PreferredResult](https://user-images.githubusercontent.com/70039286/151626820-7b6f0706-21c5-4b32-93f3-1be11678bf69.PNG)
 
 ## Edge Case 3
