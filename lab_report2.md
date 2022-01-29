@@ -1,7 +1,7 @@
 # Lab Report 2
 
 ## Edge Case 1
-Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case.md) containing edge case 1.
+Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case.md?plain=1) containing edge case 1.
 
 Link to [commit](https://github.com/StickonFire/markdown-parse/commit/70e973d1cd44980826a49f44a9ec3575764a1fda) made to remedy the first issue of Edge Case 1.
 
@@ -15,7 +15,7 @@ This allowed this infinite loop to end, resulting in this less incorrect output:
 ![PictureOfEdgeCase1Result](https://user-images.githubusercontent.com/70039286/151630441-3d6c4751-b404-495a-b465-a43059eed25f.PNG)
 
 ## Edge Case 2
-Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge_case2.md) containing edge case2.
+Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge_case2.md?plain=1) containing edge case2.
 
 [Link](https://github.com/StickonFire/markdown-parse/commit/7a5e2a3e07556c1284ca405cf7336464b093212a) to the changes made due to Edge Case 2.
 
@@ -30,7 +30,7 @@ This blocked empty strings, resulting the new output to appear like this:
 ![EdgeCase2PreferredResult](https://user-images.githubusercontent.com/70039286/151626820-7b6f0706-21c5-4b32-93f3-1be11678bf69.PNG)
 
 ## Edge Case 3
-[Link](https://github.com/StickonFire/markdown-parse/blob/main/edge_case3.md) to file with edge case 3.
+[Link](https://github.com/StickonFire/markdown-parse/blob/main/edge_case3.md?plain=1) to file with edge case 3.
 [Link](https://github.com/StickonFire/markdown-parse/commit/2f56767365c2e71832ed519b6f9bf5dc04d84a4f) to the commit made due to edge case 3.
 
 Edge case 3 lacks any links and instead has some brackets and parentheses placed in it. Despite this, something was placed in the list, and it's definitely not a link.
