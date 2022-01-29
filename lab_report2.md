@@ -5,7 +5,7 @@ Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case
 
 Link to [commit](https://github.com/StickonFire/markdown-parse/commit/70e973d1cd44980826a49f44a9ec3575764a1fda) made to remedy the first issue of Edge Case 1.
 
-The first Edge Case is unique in that it doesn't have 1 bug, but 2. The first bug is an infinite loop caused by the extra letters placed after one of the ending parentheses. These extra letters resulted in the while loop's end conditions to not fire before the program searched for another link. When the loop started again, the first line of the loop returned -1, as it couldn't find a start bracket indicating a possible start of a new link. Due to this, the next lines searched entire String again, resulting in the exact same circumstances. Due to this, the loop was unable to end.
+The first Edge Case has a few bugs, but the most egregious is some infinite loop. This infinite loop is caused by the extra letters placed after one of the ending parentheses. These extra letters resulted in the while loop's end conditions to not fire before the program searched for another link. When the loop started again, the first line of the loop returned -1, as it couldn't find a start bracket indicating a possible start of a new link. Due to this, the next lines searched entire String again, resulting in the exact same circumstances. Due to this, the loop was unable to end.
 ![InfiniteLoopFromFirstEdgeCase](https://user-images.githubusercontent.com/70039286/151630928-c62ca0ed-8f3c-4ce4-9061-7ddafd42202c.PNG)
 
 
@@ -42,5 +42,5 @@ This is due to the system only adding things based on whether it's within parent
 That resulted in the right output, an empty list:
 ![Edgecase3CorrectResult](https://user-images.githubusercontent.com/70039286/151637098-fc55a144-c6af-4cf7-8029-420d54ca6197.PNG)
 
-While it did fix this specific problem, it certainly doesn't fix much. As long as anything in parentheses has a period, it would end up getting placed in the list.
+While it did fix this specific issue, it certainly isn't a thorough fix. As long as anything in parentheses has a period, it would end up getting placed in the list.
 
