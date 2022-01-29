@@ -1,7 +1,7 @@
 # Lab Report 2
 
 ## Edge Case 1
-Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case.md)
+Link to [file](https://github.com/StickonFire/markdown-parse/blob/main/edge-case.md) containing edge case 1.
 
 Link to [commit](https://github.com/StickonFire/markdown-parse/commit/70e973d1cd44980826a49f44a9ec3575764a1fda) made to remedy the first issue of Edge Case 1.
 
