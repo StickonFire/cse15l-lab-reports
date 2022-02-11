@@ -4,3 +4,6 @@ Here are my lab reports:
 
 Lab Report 2:
 [link](https://stickonfire.github.io/cse15l-lab-reports/lab_report2.html)
+
+Lab Report 3:
+[link](https://stickonfire.github.io/cse15l-lab-reports/lab_report3.html)
