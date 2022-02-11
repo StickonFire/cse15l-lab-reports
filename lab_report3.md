@@ -1,7 +1,8 @@
 # Lab Report 3
 ## Copying a Whole Directory
 
-### Just Copying a Directory
+
+### Information on Copying a Directory
 Generally, the command to copy a directory looks like this:
 
 
@@ -16,11 +17,9 @@ The most trouble I usually get from trying to copy a directory is that the syste
 ![Command Prompt](https://user-images.githubusercontent.com/70039286/153667346-e333a31e-8d03-4dec-9984-d44bec758098.PNG)
 The highlighted sction is the path to the directory.
 
-**Example: MarkdownParse**
+### SCP MarkdownParse
 
-As an example, I'll show the command used to copy my MarkdownParse into my class account
-
-Here's the image (ignore the blue box):
+Here's the command to copy MarkdownParse to the remote server:
 ![CommandForSCP](https://user-images.githubusercontent.com/70039286/153670502-da793730-9181-4455-8e99-cfbc0ee18aa1.PNG)
 
 
