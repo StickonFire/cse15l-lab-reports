@@ -50,3 +50,18 @@ Here's the code getting compiled and running:
 ![Running MarkdownParseTest](https://user-images.githubusercontent.com/70039286/153675908-c87c74ab-2316-41eb-a71e-16dd9e998062.PNG)
 
 
+### SCP and Run Tests in One Command
+
+Within a single command line, you can insert several commands by placing ";" between it. You can also have a remote system run commands directly from your computer by placing it in quotes after you ssh a server.
+
+With this knowledge, I made this long command line to copy the code to a remote computer and run its tests there.
+
+      scp -r C:\Users\Owner\Documents\GitHub\markdown-parse cs15lwi22zzz@ieng6.ucsd.edu:~/MarkdownParse6;ssh cs15lwi22zzz@ieng6.ucsd.edu "cd MarkdownParse6;javac MarkdownParse.java;javac -cp lib/junit-4.10.jar:lib/hamcrest-core-1.3.jar:. MarkdownParseTest.java;java -cp lib/junit-4.10.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest"
+
+Unfortunately, this didn't really work well in practice. Initially, it was running fairly fine, prompting me for a password to copy the files, and then to log in. The files were also clearly copied, as seen here:
+![Running Oneliner](https://user-images.githubusercontent.com/70039286/153683781-b847977b-2050-406e-9a38-8460b11eea89.PNG)
+
+However, there were issues starting at the "javac MarkdownParse.java" part of the command. It seems as though the system couldn't recognize java.nio.File:
+![FileSeemsNotRecognized](https://user-images.githubusercontent.com/70039286/153684342-d7bf4d5b-226f-435b-be0a-12627afb281a.PNG)
+
+This was a very important command for the rest to run, so the next commands, one to compile MarkdownParseTest.java and another to run the tests, ended up failing. Weirdly, running them individually within the remote server works.
