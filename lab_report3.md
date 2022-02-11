@@ -8,7 +8,7 @@ Generally, the command to copy a directory looks like this:
       scp -r \[directory name\] \[server name\]:~/\[folder name\]
 
 
-Of course \[directory name\] is the name of the directory to copy, \[server name\] the name of the server the contents are copied to, and \[folder name\]
+\[directory name\] is the name of the directory to copy, \[server name\] the name of the server the contents are copied to, and \[folder name\]
  the name of the folder within the server to place the contents in. Don't worry if the folder you want to copy the contents to doesn't exist in the remote server; the server should be able to create one.
 
 The most trouble I usually get from trying to copy a directory is that the system can't find the directory I want to copy. Whenever this happens, I try to copy the direct path towards the directory. Sometimes, this is my go-to just to be on the safe side. If you have it already opened in VSCode, the path to the directory should be shown on the prompt before your command.
