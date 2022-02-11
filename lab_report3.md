@@ -15,7 +15,15 @@ The most trouble I usually get from trying to copy a directory is that the syste
 The highlighted sction is the path to the directory.
 
 **Example: MarkdownParse**
+
 As an example, I'll show the command used to copy my MarkdownParse into my class account
 
 Here's the image (ignore the blue box):
 ![CommandForSCP](https://user-images.githubusercontent.com/70039286/153670502-da793730-9181-4455-8e99-cfbc0ee18aa1.PNG)
+
+
+If successful, you will be prompted for the password. After entering it, you should see some text in this format:
+
+![ImageOfUploadingFiles](https://user-images.githubusercontent.com/70039286/153671009-f37c2edc-8049-4efb-8f91-509877e71724.PNG)
+
+This demonstrates that it works, especially if you see the files you wanted copied within the list.
