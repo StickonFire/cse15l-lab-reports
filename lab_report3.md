@@ -27,3 +27,24 @@ If successful, you will be prompted for the password. After entering it, you sho
 ![ImageOfUploadingFiles](https://user-images.githubusercontent.com/70039286/153671009-f37c2edc-8049-4efb-8f91-509877e71724.PNG)
 
 This demonstrates that it works, especially if you see the files you wanted copied within the list.
+
+### Running MarkdownParse on the Remote Server
+
+Now, you can run the files in that directory in the remote server
+![Logging into Server](https://user-images.githubusercontent.com/70039286/153673766-d6c251fb-5b87-45eb-aae5-26b472f630ce.PNG)
+
+I made a mistake by trying to compile it here with this command. While one can compile it here with a different command, it would be more efficient to just go to the specific directory, which can be done with this command:
+
+cd \[directory\]
+
+Here's an example:
+![CommandcdExample](https://user-images.githubusercontent.com/70039286/153674403-401f7e62-eea2-4d3b-8d2f-ac6044172cbb.PNG)
+
+You'll know if cd worked if you can see the directory name placed within the command prompt after.
+
+Here's the code getting compiled and running:
+![javac MarkdownParse](https://user-images.githubusercontent.com/70039286/153675853-aa3f858a-5eaa-4534-bf8e-e04c208d8161.PNG)
+![javac MarkdownParseTest](https://user-images.githubusercontent.com/70039286/153675875-82fe0a6d-0e41-4fb8-891c-7c2fb195712c.PNG)
+![Running MarkdownParseTest](https://user-images.githubusercontent.com/70039286/153675908-c87c74ab-2316-41eb-a71e-16dd9e998062.PNG)
+
+
