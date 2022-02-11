@@ -1,3 +1,7 @@
 # Lab Report 3
+## Copying a Whole Directory
 
-##Copying a directory
+### Just Copying a Directory
+Generally, the command to copy a directory looks like this:
+  
+scp -r \[directory name\] \[server name\]:~/\[Folder Name\]
