@@ -1,6 +1,13 @@
 # Lab Report 3
 ## Copying a Whole Directory
 
+>[Information on Copying a Directory](https://github.com/StickonFire/cse15l-lab-reports/edit/main/lab_report3.md#information-on-copying-a-directory)
+
+>[SCP MarkdownParse]()
+
+>[Running MarkdownParse on a Remote Server]()
+
+>[SCP and Run Tests in One Command]()
 
 ### Information on Copying a Directory
 Generally, the command to copy a directory looks like this:
