@@ -71,3 +71,5 @@ However, there were issues starting at the "javac MarkdownParse.java" part of th
 ![FileSeemsNotRecognized](https://user-images.githubusercontent.com/70039286/153684342-d7bf4d5b-226f-435b-be0a-12627afb281a.PNG)
 
 This was a very important command for the rest to run, so the next commands, one to compile MarkdownParseTest.java and another to run the tests, ended up failing. Weirdly, running them individually within the remote server works.
+
+![ErrorInSSH](https://user-images.githubusercontent.com/70039286/153688120-798671a5-c2ce-4e3b-81ae-430a4f454a49.PNG)
