@@ -1,7 +1,7 @@
 # Lab Report 3
 ## Copying a Whole Directory
 
->[Information on Copying a Directory](https://github.com/StickonFire/cse15l-lab-reports/edit/main/lab_report3.md#information-on-copying-a-directory)
+>[Information on Copying a Directory](https://stickonfire.github.io/cse15l-lab-reports/lab_report3/#information-on-copying-a-directory)
 
 >[SCP MarkdownParse]()
 
