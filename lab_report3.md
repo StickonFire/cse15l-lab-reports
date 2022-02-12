@@ -13,7 +13,7 @@
 Generally, the command to copy a directory looks like this:
 
 
-      scp -r \[directory name\] \[server name\]:~/\[folder name\]
+      scp -r [directory name] [server name]:~/[folder name]
 
 
 \[directory name\] is the name of the directory to copy, \[server name\] the name of the server the contents are copied to, and \[folder name\]
@@ -43,7 +43,7 @@ Now, you can run the files in that directory in the remote server
 
 I made a mistake by trying to compile it here with this command. While one can compile it here with a different command, it would be more efficient to just go to the specific directory, which can be done with this command:
 
-    cd \[directory\]
+    cd [directory]
 
 Here's an example:
 ![CommandcdExample](https://user-images.githubusercontent.com/70039286/153674403-401f7e62-eea2-4d3b-8d2f-ac6044172cbb.PNG)
