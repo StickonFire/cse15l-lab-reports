@@ -1,13 +1,13 @@
 # Lab Report 3
 ## Copying a Whole Directory
 
->[Information on Copying a Directory](https://stickonfire.github.io/cse15l-lab-reports/lab_report3/#information-on-copying-a-directory)
+>[Information on Copying a Directory](https://stickonfire.github.io/cse15l-lab-reports/lab_report3.html#information-on-copying-a-directory)
 
->[SCP MarkdownParse]()
+>[SCP MarkdownParse](https://stickonfire.github.io/cse15l-lab-reports/lab_report3.html#scp-markdownparse)
 
->[Running MarkdownParse on a Remote Server]()
+>[Running MarkdownParse on a Remote Server](https://stickonfire.github.io/cse15l-lab-reports/lab_report3.html#running-markdownparse-on-the-remote-server)
 
->[SCP and Run Tests in One Command]()
+>[SCP and Run Tests in One Command](https://stickonfire.github.io/cse15l-lab-reports/lab_report3.html#scp-and-run-tests-in-one-command)
 
 ### Information on Copying a Directory
 Generally, the command to copy a directory looks like this:
