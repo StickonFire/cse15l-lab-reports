@@ -48,8 +48,24 @@ With these results, a few JUnit tests can now be made.
 
 ![JUNITTEST](https://user-images.githubusercontent.com/70039286/155807107-f2ff94e2-a478-40e0-9b0c-a44ac4ba0f11.PNG)
 
+### My Implementation
+
+All of the tests, when ran on my implementation, resulted in an empty list getting returned. This meant that all three failed:
+
+![MyImplementationS1Fail](https://user-images.githubusercontent.com/70039286/155814646-68c4bda9-d196-41ad-8530-7347c7cf464f.PNG)
+![MyImplementationS2Fail](https://user-images.githubusercontent.com/70039286/155814657-2e1b1f7f-dc2d-43d2-bdf4-8eda2e9366bf.PNG)
+![MyImplementationS3Fail](https://user-images.githubusercontent.com/70039286/155814659-7a693d16-49cf-4851-9ea4-256ed40d5455.PNG)
+
+
+
+### Reviewed Implementation
+
 Running these test initially caused the same error wihin all of them, which is closeParen resulting in a StringoutOfBoundsException.
 ![UnintendedError](https://user-images.githubusercontent.com/70039286/155809310-722deb44-927b-4ab9-b8c3-4b89f54c0d7b.PNG)
 
 However, this wasn't exactly what was being tested, so I fixed it. The issue was that the closeParen function didn't stop when it reached the end of the markdown string. So I added a new if statement to end it there, as seen in the first if statement.
 ![FixForUnintendedOne](https://user-images.githubusercontent.com/70039286/155809326-e31cedb6-a9d4-4635-94f5-31bc86260c0f.PNG)
+
+After this, all three failed, seemingly with similar errors:
+![Week8Failures](https://user-images.githubusercontent.com/70039286/155813196-7b3b8c3a-7fee-489c-9f8b-3cd77e5540a0.PNG)
+All of them seem to have the end lack any 
