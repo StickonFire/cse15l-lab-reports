@@ -48,3 +48,8 @@ With these results, a few JUnit tests can now be made.
 
 ![JUNITTEST](https://user-images.githubusercontent.com/70039286/155807107-f2ff94e2-a478-40e0-9b0c-a44ac4ba0f11.PNG)
 
+Running these test initially caused the same error wihin all of them, which is closeParen resulting in a StringoutOfBoundsException.
+![UnintendedError](https://user-images.githubusercontent.com/70039286/155809310-722deb44-927b-4ab9-b8c3-4b89f54c0d7b.PNG)
+
+However, this wasn't exactly what was being tested, so I fixed it. The issue was that the closeParen function didn't stop when it reached the end of the markdown string. So I added a new if statement to end it there, as seen in the first if statement.
+![FixForUnintendedOne](https://user-images.githubusercontent.com/70039286/155809326-e31cedb6-a9d4-4635-94f5-31bc86260c0f.PNG)
