@@ -1,7 +1,7 @@
 # Lab Report 4
 
 ## Links to MarkdownParses
-[My implementation] (https://github.com/StickonFire/markdown-parse)
+[My implementation](https://github.com/StickonFire/markdown-parse)
 
 [Reviewed implementation](https://github.com/StickonFire/WK7MarkdownParse) 
 
