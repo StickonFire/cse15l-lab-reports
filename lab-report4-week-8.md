@@ -66,6 +66,24 @@ Running these test initially caused the same error wihin all of them, which is c
 However, this wasn't exactly what was being tested, so I fixed it. The issue was that the closeParen function didn't stop when it reached the end of the markdown string. So I added a new if statement to end it there, as seen in the first if statement.
 ![FixForUnintendedOne](https://user-images.githubusercontent.com/70039286/155809326-e31cedb6-a9d4-4635-94f5-31bc86260c0f.PNG)
 
-After this, all three failed, seemingly with similar errors:
+After this, all three failed, seemingly with similar errors as my implementation:
 ![Week8Failures](https://user-images.githubusercontent.com/70039286/155813196-7b3b8c3a-7fee-489c-9f8b-3cd77e5540a0.PNG)
-All of them seem to have the end lack any 
+
+All of the tests come back with an empty list.
+
+
+## What to Change?
+
+### Inline code with backticks
+
+I may be underestimating the difficulty to do this, but it seems as though you can make the code watch for two backticks and ignore whatever's between them. 
+If the program finds a single backtick within the parentheses part of the link, it ignores that there's a backtick there and includes it within the link, as seen in the second link attempt of snippet 1.
+For singular backticks, perhaps have the program ignore it if there is multiple new lines between it and the next backtick or there are no backticks between it and the end of the file.
+
+### Nest parentheses, brackets, escaped brackets
+
+It looks as though the reviewed implementation effectively should have the answer for nest parentheses, which could be a good base for the brackets too. Escaped brackets should also be easy to deal with, as the program can check the previous character for a "\" and ignore the bracket if this is found. Nested links is a unique case, and will require major changes (over 10 lines). The system has to look for these links within the brackets, which could be helped by perhaps calling getLinks on the space between the brackets. If one is found, it will plant that within the links found, discard the link that link was nested in, and continue on.
+
+### Newlines in brackets and parentheses
+
+If a more than one continuous new line is found between the brackets of a potential link, it should immediately discard the potential link and continue on. At the parentheses, it appears that a single new line on the edge shouldn't matter, but if multiple pop up at either end, the getLinks should discard the potential link and continue.
