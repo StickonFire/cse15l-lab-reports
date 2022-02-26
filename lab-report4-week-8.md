@@ -3,7 +3,7 @@
 ## Links to MarkdownParses
 [My implementation] (https://github.com/StickonFire/markdown-parse)
 
-[Reviewed implementation] (https://github.com/samw0627/markdownparse2)
+[Reviewed implementation](https://github.com/StickonFire/WK7MarkdownParse) 
 
 
 ## Checking What Must be Produced
