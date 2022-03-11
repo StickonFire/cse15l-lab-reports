@@ -7,9 +7,9 @@ Unlike the Wk9 MarkdownParse, my MarkdownParse implementation wasn't really touc
 
 One of the major files to add is a bash script, which I copied over from the Wk9 MarkdownParse. It looks like this:
 
-//Add image here
+![script sh for Lab Report 5](https://user-images.githubusercontent.com/70039286/157979273-dd21819b-05b4-4e67-b006-2d92bf53d3c3.PNG)
 
-The goal after was to get the results printed within each 
+The goal was to get the results printed within a results.txt for each implementation, so that I can call diff on the two results file. 
 
 ### Difference 1: Infinite Loops
 
@@ -30,3 +30,6 @@ Wk9's results displays an empty arrayList as the result for 12.md.
 
 I believe that Wk9 returned the correct result, as the file had no links within it.
 ![12 md contents](https://user-images.githubusercontent.com/70039286/157977020-c5b3ef77-c8fd-41e1-85dc-af7e65b46d01.PNG)
+
+## Difference 1 Bug
+
