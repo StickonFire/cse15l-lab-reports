@@ -52,7 +52,7 @@ Now, instead of just dealing with nextOpenBracket being -1, it can deal with all
 
 ## Difference 2 
 
-Now that the script is running properly, I saw how many differences there were in results. One I found interesting was this:
+Now the script can run properly. After running it, I saw how many differences there were in results. One I found interesting was this:
 ![Difference](https://user-images.githubusercontent.com/70039286/157993486-7f86fffa-395a-406e-9173-ed6058104c7b.PNG)
 
 This seems to say that at line 966 to 968 of results.txt from my implementation differed from line 912 of the Week 9 impelmentation.
