@@ -65,8 +65,19 @@ This appears to be the results from test file 509.md.
 Based on the VSCode preview, there should be a link found in the file.
 ![509 md Test](https://user-images.githubusercontent.com/70039286/157994412-f47c2502-f37a-474a-aaf3-ee3e858c668d.PNG)
 
-This means that the correct result came from my implementation. This is certainly interesting to me, as I fully expected my implementation to always be incorrect.
+This means that the more correct result came from my implementation. This is certainly interesting to me, as I fully expected my implementation to always be more incorrect. My implementation is still incorrect, just less so.
 
 The bug in the Week 9 implementation appears to be here:
 ![Wk9 Fail spot](https://user-images.githubusercontent.com/70039286/157995072-584550d9-a655-46bc-9bd5-22b2a5c34227.PNG)
 
+The implementation immediately discards any potential links that has a new line or a space within it. This appears to be incorrect.
+
+My implementation, however, is still wrong. Opening the preview of 509.md in github let me copy the link from there. It appears that the correct answer might actually be "uri". Copying and pasting the link resulted in this:
+![Resulting Link](https://user-images.githubusercontent.com/70039286/157995427-53273265-bdae-43b4-943c-0e20125cbe56.PNG)
+
+While I'm not sure where the most of the link came from, I know that the only part of the md file that appeared in the link is "uri". I assume that the part in quotation marks was only to provide a title when the link is hovered over, as seen here:
+![Infohover](https://user-images.githubusercontent.com/70039286/157995657-e946a29d-5901-4b1a-9bb4-f74820d4a601.PNG)
+
+
+For my implementation, I think that the bug is that there is no check for these quotation marks to remove the section from the potential link. The check should likely be placed just before toReturn.add call. It should check the link for one quote mark, then find the other, then remove the part between the quotation marks.
+![Link Processing Section](https://user-images.githubusercontent.com/70039286/157995831-6ab3238d-830f-4607-abdf-4a890672519d.PNG)
