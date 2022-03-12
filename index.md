@@ -10,3 +10,6 @@ Lab Report 3:
 
 Lab Report 4:
 [link](https://stickonfire.github.io/cse15l-lab-reports/lab-report4-week-8.html)
+
+Lab Report 5:
+[link](https://stickonfire.github.io/cse15l-lab-reports/lab_report5.html)
