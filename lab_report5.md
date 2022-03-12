@@ -40,11 +40,33 @@ Looking at each of the files that caused an infinite loop, there was one similar
 ![Image of 194](https://user-images.githubusercontent.com/70039286/157983817-5eff74a4-6040-4c7d-aead-4ba7db193686.PNG)
 Image of 194.md, one of the files that caused an infinite loop.
 
+Looking into my implementation, it appears that I forgot to fix the infinite loop that occurs if it can't find any parentheses. 
 
-Looking into my implementation, it appears that I forgot to fix the infinite loop that occurs if it can't find any parentheses. So I modified it to deal with this issue:
+![OriginalOriginalifStatement](https://user-images.githubusercontent.com/70039286/157990810-7867636f-95bb-4185-ab8d-d6dce81490f5.PNG)
+
+So I modified it to deal with this issue:
 ![New if statement to deal with all outputting -1](https://user-images.githubusercontent.com/70039286/157985643-40172715-9bed-4307-82c5-afc375a26606.PNG)
 
 Now, instead of just dealing with nextOpenBracket being -1, it can deal with all the other variables.
 
 
 ## Difference 2 
+
+Now that the script is running properly, I saw how many differences there were in results. One I found interesting was this:
+![Difference](https://user-images.githubusercontent.com/70039286/157993486-7f86fffa-395a-406e-9173-ed6058104c7b.PNG)
+
+This seems to say that at line 966 to 968 of results.txt from my implementation differed from line 912 of the Week 9 impelmentation.
+While my implementation picked up what it thinks to be a link, the Week 9 implementation got nothing.
+
+This appears to be the results from test file 509.md.
+
+### Difference 2 Bug
+
+Based on the VSCode preview, there should be a link found in the file.
+![509 md Test](https://user-images.githubusercontent.com/70039286/157994412-f47c2502-f37a-474a-aaf3-ee3e858c668d.PNG)
+
+This means that the correct result came from my implementation. This is certainly interesting to me, as I fully expected my implementation to always be incorrect.
+
+The bug in the Week 9 implementation appears to be here:
+![Wk9 Fail spot](https://user-images.githubusercontent.com/70039286/157995072-584550d9-a655-46bc-9bd5-22b2a5c34227.PNG)
+
